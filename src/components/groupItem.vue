@@ -21,7 +21,7 @@
         </ul>
       </div>
     </section>
-    <section class="more-group"><a href="">更多相关小组</a></section>
+    <section class="more-group"><a href="javascript:;">更多相关小组</a></section>
   </div>
 </template>
 
