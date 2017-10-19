@@ -2,15 +2,15 @@
     <li class="main">
         <div>
             <div class="desc">
-            <a href=""><img :src="avatar" :alt="name"></a>
-            <a href="">
+            <a href="javascript:;"><img :src="avatar" :alt="name"></a>
+            <a href="javascript:;">
                 <div class="user-info">
                     <strong>{{name}} <span>{{active}}</span></strong>
                     <div class="timestamp">{{time}}</div>
                 </div>
             </a>
             </div>
-            <a href="">
+            <a href="javascript:;">
                 <div class="content">
                     <div>
                         {{text}}
@@ -19,7 +19,7 @@
             </a>
         </div>
         <div class="feed-card" v-if="isCard()">
-            <a href="">
+            <a href="javascript:;">
                 <div class="title">{{card.title}}</div>
                 <div class="detail" :class="card.image ? 'has-cover':''">
                     <div class="text">{{card.subtitle}}</div>

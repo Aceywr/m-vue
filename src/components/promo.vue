@@ -11,8 +11,8 @@
                     <span class="promo_title_text">{{data[1]}}</span>                    
                 </div>
                 <div class="button_wrapper">
-                    <a href="" class="promo_button download_app">极速下载</a>
-                    <a href="" class="promo_button open_app">打开</a>
+                    <a href="javascript:;" class="promo_button download_app">极速下载</a>
+                    <a href="javascript:;" class="promo_button open_app">打开</a>
                 </div>
             </div>
         </div>

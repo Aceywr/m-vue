@@ -3,8 +3,8 @@
         <header><h2>分类浏览</h2></header>
         <div class="section-content">
             <ul class="type-list">
-                <li v-for="item in list" :key="item.id"><a href="">{{item}}<span></span></a></li>
-                <li v-if="last()"><a href=""></a></li>
+                <li v-for="item in list" :key="item.id"><a href="javascript:;">{{item}}<span></span></a></li>
+                <li v-if="last()"><a href="javascript:;"></a></li>
             </ul>
         </div>
     </section>

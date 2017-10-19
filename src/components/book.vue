@@ -4,7 +4,7 @@
             <section class="book_fiction">
                 <header>
                     <h2>最受关注图书｜虚构类</h2>
-                    <a href="">更多</a>
+                    <a href="javascript:;">更多</a>
                 </header>
                 <div class="section-content" v-if="show">
                     <ul class="row items">
@@ -17,7 +17,7 @@
             <section class="book_nonfiction">
                 <header>
                     <h2>最受关注图书｜非虚构类</h2>
-                    <a href="">更多</a>
+                    <a href="javascript:;">更多</a>
                 </header>
                 <div class="section-content" v-if="show">
                     <ul class="row items">
@@ -31,9 +31,9 @@
                 <div class="book_header">
                     <header>
                         <h2>豆瓣书店</h2>
-                        <a href="">更多</a>
+                        <a href="javascript:;">更多</a>
                     </header>
-                    <a href="" class="promBook"  v-if="show">
+                    <a href="javascript:;" class="promBook"  v-if="show">
                         <img :src="getBook.market_header.cover.url" :alt="getBook.market_header.title" class="cover">
                         <div class="content">
                             <div class="title">

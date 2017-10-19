@@ -4,7 +4,7 @@
             <img src="https://img3.doubanio.com/f/talion/7837f29dd7deab9416274ae374a59bc17b5f33c6/pics/card/douban-app-logo.png">
             <div class="info-content"><strong>豆瓣</strong><div>我们的精神角落</div></div>    
         </div>
-        <a href="">去 App Store 免费下载 iOS 客户端</a>
+        <a href="javascript:;">去 App Store 免费下载 iOS 客户端</a>
     </div>
 </template>
 

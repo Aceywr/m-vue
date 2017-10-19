@@ -2,7 +2,7 @@
     <div class="page">
         <div class="card">
             <section class="movie_showing">
-                <header><h2>影院热映</h2><a href="">更多</a></header>
+                <header><h2>影院热映</h2><a href="javascript:;">更多</a></header>
                 <div class="section-content"  v-if="show">
                     <ul class="row items">
                         <li class="item" v-for="item in getMovie.movie_showing" :key="item.id">
@@ -12,7 +12,7 @@
                 </div>
             </section>
             <section class="movie_free_stream">
-                <header><h2>免费在线观影</h2><a href="">更多</a></header>
+                <header><h2>免费在线观影</h2><a href="javascript:;">更多</a></header>
                 <div class="section-content"  v-if="show">
                     <ul class="row items">
                         <li class="item" v-for="item in getMovie.movie_free_stream" :key="item.id">
@@ -22,7 +22,7 @@
                 </div>
             </section>
             <section class="movie_latest">
-                <header><h2>新片速递</h2><a href="">更多</a></header>
+                <header><h2>新片速递</h2><a href="javascript:;">更多</a></header>
                 <div class="section-content"  v-if="show">
                     <ul class="row items">
                         <li class="item" v-for="item in getMovie.movie_latest" :key="item.id">

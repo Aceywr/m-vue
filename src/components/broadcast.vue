@@ -15,7 +15,7 @@
                     <div class="pull-refresh-loading" :style="op"></div>
                     <ul class="status-list" v-show="show" @touchstart="start($event)" @touchmove="move($event)" @touchend="end($event)" :style="stl">
                         <broad-item v-for="item in getBroad.items" :key="item.id" :data="item"></broad-item>
-                        <a href="" class="list-link">显示更多广播</a>
+                        <a href="javascript:;" class="list-link">显示更多广播</a>
                     </ul>
                 </div>
             </div>

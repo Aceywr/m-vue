@@ -65,15 +65,15 @@
           <section class="tags">
               <p>查看更多主题的豆瓣日记和相册</p>
               <ul>
-                  <li><a href="">旅行</a></li>
-                  <li><a href="">极光</a></li>
-                  <li><a href="">瑞典</a></li>
-                  <li><a href="">穷游</a></li>
-                  <li><a href="">自由行</a></li>
+                  <li><a href="javascript:;">旅行</a></li>
+                  <li><a href="javascript:;">极光</a></li>
+                  <li><a href="javascript:;">瑞典</a></li>
+                  <li><a href="javascript:;">穷游</a></li>
+                  <li><a href="javascript:;">自由行</a></li>
               </ul>
           </section>
           <section class="author">
-              <a href="" class="note-author">
+              <a href="javascript:;" class="note-author">
                   <img src="https://img1.doubanio.com/icon/up55634576-8.jpg" alt="" class="avatar">
                   <div class="author-info">
                       作者
@@ -90,7 +90,7 @@
               <ul class="comment-list">
                   <li>
                       <div class="desc">
-                          <a href=""><img src="https://img3.doubanio.com/icon/up2179521-40.jpg" alt=""></a>
+                          <a href="javascript:;"><img src="https://img3.doubanio.com/icon/up2179521-40.jpg" alt=""></a>
                           <div class="user-info">
                               <strong>车前</strong>
                               <div class="timestamp">2017-10-16 08:26:31</div>
@@ -100,7 +100,7 @@
                   </li>
                   <li>
                       <div class="desc">
-                          <a href=""><img src="https://img3.doubanio.com/icon/up75886294-2.jpg" alt=""></a>
+                          <a href="javascript:;"><img src="https://img3.doubanio.com/icon/up75886294-2.jpg" alt=""></a>
                           <div class="user-info">
                               <strong>一蓑烟雨任平生</strong>
                               <div class="timestamp">2017-10-19 04:43:24</div>
@@ -109,11 +109,11 @@
                       <div class="content">写得很有文采。我在挪威看了一星期极光大晴天漫天都是星星也没这么深的感想。。</div>
                   </li>
               </ul>
-              <a href="" class="list-link">添加回应</a>
+              <a href="javascript:;" class="list-link">添加回应</a>
           </section>
       </div>
       <download-app></download-app>
-      <a href="" class="open-in-app-float">App 内打开</a>
+      <a href="javascript:;" class="open-in-app-float">App 内打开</a>
   </div>
 </template>
 

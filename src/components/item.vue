@@ -1,5 +1,5 @@
 <template>
-  <a href="">
+  <a href="javascript:;">
     <div class="item-poster" v-bind:style="img"></div>
     <span class="item-title">{{title}}</span>
     <div class="item-rating">

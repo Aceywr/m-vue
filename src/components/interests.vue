@@ -3,9 +3,9 @@
         <header><h2>{{title}}</h2></header>
         <div class="section-content">
             <ul>
-                <li v-for="item in list1" :key="item.id" :style="{borderColor:item.color}"><a href="" :style="{color:item.color}">{{item.name}}</a></li>
+                <li v-for="item in list1" :key="item.id" :style="{borderColor:item.color}"><a href="javascript:;" :style="{color:item.color}">{{item.name}}</a></li>
                 <li class="line"></li>
-                <li v-for="item in list2" :key="item.id" :style="{borderColor:item.color}"><a href="" :style="{color:item.color}">{{item.name}}</a></li>
+                <li v-for="item in list2" :key="item.id" :style="{borderColor:item.color}"><a href="javascript:;" :style="{color:item.color}">{{item.name}}</a></li>
             </ul>
         </div>
     </section>

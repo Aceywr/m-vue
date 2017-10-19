@@ -7,7 +7,7 @@
       <div class="section-content">
         <ul class="group-list">
           <li v-for="item in data.groups" :key="item.id">
-            <a href="" class="group">
+            <a href="javascript:;" class="group">
               <div class="group-meta">
                 <img :src="item.avatar" alt="" class="group-icon">
                 <span class="group-name">{{item.name}}</span>

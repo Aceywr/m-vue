@@ -2,10 +2,10 @@
     <div class="page">
         <div class="card">
             <ul class="quick-nav">
-                <li><a href="">影院热映</a></li>
-                <li><a href="">欧美新碟榜</a></li>
-                <li><a href="">豆瓣时间</a></li>
-                <li><a href="">使用豆瓣App</a></li>
+                <li><a href="javascript:;">影院热映</a></li>
+                <li><a href="javascript:;">欧美新碟榜</a></li>
+                <li><a href="javascript:;">豆瓣时间</a></li>
+                <li><a href="javascript:;">使用豆瓣App</a></li>
             </ul>
             <section class="recommend-feed">
                 <div v-if="get">
